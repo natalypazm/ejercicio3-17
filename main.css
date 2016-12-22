@@ -1,19 +1,39 @@
 body{
-	background:url(monkey1.jpg);
+	background:url(monkey.jpg);
 	color:#000000;
 }
 .container{
 	background:rgba(154, 78, 146, 0.5);
-	margin:170px auto;
-	padding:20px 
+	margin:180px auto;
+	padding:10px;
+
 }
 .titulo h1{
 	text-align:center;
 }
-@media screen and (max-width:700px) {
+button{
+	background:black;
+	color:white;
+	border-radius:5px;
+	border:1px solid black;
+	padding:10px;
+	font-size:16px;
+}
+@media screen and (max-width:750px) {
+	body{
+		background-size:cover;
+		background-position:center;
+		background-repeat: no-repeat;
+	}
+	
 	.container{
 		margin:70px 0;
-		background:rgba(77, 189, 193, 0.5)
+		background:rgba(77, 189, 193, 0.5);
+
 	}
+	button{
+	margin:0 130px;
+	position: relative;
+}
 	
 }
