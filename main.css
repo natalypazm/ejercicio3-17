@@ -1,0 +1,19 @@
+body{
+	background:url(monkey1.jpg);
+	color:#000000;
+}
+.container{
+	background:rgba(154, 78, 146, 0.5);
+	margin:170px auto;
+	padding:20px 
+}
+.titulo h1{
+	text-align:center;
+}
+@media screen and (max-width:700px) {
+	.container{
+		margin:70px 0;
+		background:rgba(77, 189, 193, 0.5)
+	}
+	
+}
